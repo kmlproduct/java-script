@@ -1,9 +1,13 @@
-var myName = "salah";
-var myage  = 30 ;
 
 
-document.getElementById("salah").innerHTML = 
-"<span style='color:red'> ma name is</span>: "myName" 
-" <span style='color:red'> my age is</span>: " + "<span style='color:blue'>" + myage "</span>"  ;
+
+
+function convertdollartodirhams()
+{
+    "use strickt";
+    var amount = document.getElementById("dollar").value;
+    result= amount * 11.5;
+    document.getElementById("message").innerHTML = amount + " dollar is " + result + "dirhams";
+}
 
 

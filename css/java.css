@@ -1,0 +1,21 @@
+div {
+    background-color: rgb(243, 128, 253);
+    width: 225px;
+    margin-top: 10px;
+    padding: 10px;
+}
+button {
+    background-color:rgb(238, 81, 120);
+    margin:10px
+}
+button:hover{background-color:rgb(245, 19, 75);}
+Input{
+    margin:10px;
+}
+.convert{
+    background-color:wheat;
+
+}
+.convert p {
+    color:rgb(238, 81, 120);
+}

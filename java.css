@@ -1,0 +1,16 @@
+div {
+    background-color: rgb(243, 128, 253);
+    width: 225px;
+    margin-top: 10px;
+    padding: 10px;
+}
+button {
+    background-color:rgb(238, 81, 120);
+}
+.convert{
+    background-color:wheat;
+
+}
+.convert p {
+    color:rgb(238, 81, 120);
+}
