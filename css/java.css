@@ -11,11 +11,17 @@ button {
 button:hover{background-color:rgb(245, 19, 75);}
 Input{
     margin:10px;
+    width:180px;
 }
+
 .convert{
     background-color:wheat;
 
 }
 .convert p {
     color:rgb(238, 81, 120);
+    width: 180px;
 }
+textarea{width: 180px;
+height:30px;
+margin:10px;}

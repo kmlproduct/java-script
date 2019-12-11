@@ -7,11 +7,19 @@
 </head>
 <body>
     <div class="convert">
-        <p>convert dollar to moroccan dirhams</p>
-    </div>
-    <input type="text" id="dollar" >
-    <button onclick="convertdollartodirhams()">calculate</button>
-    <div id="message"></div>
+        <p>convert mony to moroccan dirhams</p>
+    
+    <input type="text" id="input" >
+    <button onclick="convertdollartodirhams()">Auto calculate</button>
+    <select id="currency">
+        <option id="dollar" value="11.5">dollar</option>
+        <option id="eauro" value="9.8">eauro</option>
+        <option id="lira" value="6">turkish lira</option>
+    </select>
+    
+   
+    <textarea type="text" id="message"></textarea>
+</div>
 <script src="java.js"></script>
 
 </body>

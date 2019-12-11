@@ -1,13 +1,26 @@
 
 
+ var
+ myinput = document.getElementById("input"),
+ mydiv = document.getElementById("message"),
+ myCurrency = document.getElementById("currency");
 
-
-function convertdollartodirhams()
+myinput.onkeyup =function ()
 {
     "use strickt";
-    var amount = document.getElementById("dollar").value;
-    result= amount * 11.5;
-    document.getElementById("message").innerHTML = amount + " dollar is " + result + "dirhams";
+    result = myinput.value * myCurrency.value;
+
+     document.getElementById("message").innerHTML = myinput.value + " dollar is " + result + " dirhams ";
+
+    if ( myinput.value === "")
+{
+    document.getElementById("message").innerHTML = "write your number";
 }
+else if (isNaN(myinput.value)) {
+    document.getElementById("message").innerHTML = "this frild accept number only";
+}
+}
+
+
 
 
